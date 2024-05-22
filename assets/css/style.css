@@ -11,3 +11,24 @@ body {
     padding: 0 20px;
     background: hsl(275, 100%, 97%) url(../images/background-pattern-mobile.svg) no-repeat top;
 }
+
+.star {
+    width: 25px;
+    margin-right: 25px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 130px 0;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
