@@ -23,7 +23,7 @@ h1 {
 }
 
 .container {
-    margin: 130px 0;
+    margin: 130px 0 0;
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
@@ -55,4 +55,22 @@ h2 {
 hr {
     margin: 20px 0;
     opacity: 0.1;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(281, 83%, 54%);
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
