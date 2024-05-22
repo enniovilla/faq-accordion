@@ -50,6 +50,7 @@ h2 {
     font-weight: 300;
     color: hsl(292, 16%, 49%);
     padding: 20px 0 0;
+    display: none;
 }
 
 hr {
