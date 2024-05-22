@@ -19,6 +19,7 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    color: hsl(292, 42%, 14%);
 }
 
 .container {
@@ -31,4 +32,16 @@ h1 {
 h2 {
     font-size: 18px;
     font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.answer {
+    font-size: 16px;
+    font-weight: 300;
+    color: hsl(292, 16%, 49%);
 }
