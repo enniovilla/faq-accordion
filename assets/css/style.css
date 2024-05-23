@@ -9,7 +9,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     padding: 0 20px;
-    background: hsl(275, 100%, 97%) url(../images/background-pattern-desktop.svg) no-repeat center top;
+    background: hsl(275, 100%, 97%) url(../images/background-pattern-desktop.svg) repeat-x center top;
     display: flex;
     flex-direction: column;
     justify-content: center;
