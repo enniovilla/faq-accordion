@@ -9,7 +9,11 @@
 body {
     font-family: 'Work Sans', sans-serif;
     padding: 0 20px;
-    background: hsl(275, 100%, 97%) url(../images/background-pattern-mobile.svg) no-repeat top;
+    background: hsl(275, 100%, 97%) url(../images/background-pattern-desktop.svg) no-repeat center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .star {
@@ -23,10 +27,12 @@ h1 {
 }
 
 .container {
-    margin: 130px 0 0;
+    margin: 230px 0 0;
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
+    min-width: 350px;
+    max-width: 400px;
 }
 
 h2 {
