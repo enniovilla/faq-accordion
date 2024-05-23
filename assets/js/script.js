@@ -1,6 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
     const questions = document.querySelectorAll('.question');
 
+    if (questions.length > 0) {
+        const firstAnswer = questions[0].nextElementSibling;
+        const firstIcon = questions[0].querySelector('img');
+
+        firstAnswer.style.display = 'block';
+        firstIcon.src = './assets/images/icon-minus.svg';
+    }
+
     questions.forEach(question => {
         question.addEventListener('click', function () {
             const answer = question.nextElementSibling;
